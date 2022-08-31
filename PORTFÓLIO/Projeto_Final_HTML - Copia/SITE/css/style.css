@@ -1,0 +1,35 @@
+.principal{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+    margin-top: 40px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.icone{
+    text-align: center;
+}
+
+.navbar{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.imagem{
+    background-color: rgba(71, 100, 71, 0.253);
+    text-align: center;
+    padding: 40px;
+}
+
+.texto{
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.rodape{
+    text-align: center;
+    margin-top: 30px;
+}
+
