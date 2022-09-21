@@ -51,17 +51,14 @@ header{ /* altera o cxabeçalho do site */
     padding: 15px; /* para o texto não ficar colado no card */
     margin: 15px 2px 25px 2px; /* define margens em relação ao body */
 }
-.contral{
-    80%
-}
 
 .lateral{
     width: 80%;
 }
 
-
-
 .rodape{
     text-align: center;
-    color: rgb(173,173,173);
+    color: darkgrey;
+    font-size: 10px;
+
 }

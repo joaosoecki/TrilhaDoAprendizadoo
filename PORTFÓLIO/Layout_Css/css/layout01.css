@@ -56,7 +56,7 @@ header{ /* altera o cxabeçalho do site */
 
 }
 
-@media screen and (max width: 600px){
+@media screen and (maxwidth: 600px){
     .principal, .conteudo {
         width:100%;
         flex-direction: column;
