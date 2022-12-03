@@ -1,0 +1,77 @@
+body{
+    /* altera propriedades gerais do conteudo html */
+    font-family: Arial, Helvetica, sans-serif;
+    width: 70%; /* largura toal do corpo do texto */
+    margin: 0 auto; /* centraliza o conteudo */
+    background: linear-gradient(to right, #122741, #255897);
+}  
+
+header{ /* altera o cxabeçalho do site */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #161616;
+    border-radius: 10px; /* arredonda os cantos do elemento */
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.logo img{ /* altera propriedades do logo tag img */
+    width: 60%; /* altera o tamanho da tag img */
+    padding-top: 4%;
+    padding-left: 23%;
+
+}
+
+.navegacao{
+    overflow: hidden; /* esconde a barra de rolagem */
+    border-radius: 10px;
+    text-align: center;
+}
+
+.navegacao a{ /* altera os hyperlinks da classe navegação */
+    color: rgb(173,173,173);
+    text-decoration: none; /* retira o sublinhado do hypoerlink */
+    padding: 10px;
+}
+
+.navegacao a:hover{ /* altera a cor dos hyperlinks quando passa o mouse - não é permanente */
+    color: #e32936;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.links a:hover{ /* altera a cor dos hyperlinks quando passa o mouse - não é permanente */
+    color: #e32936;
+}
+
+.links{
+    margin-top: 25px;
+    margin-bottom: 30px;
+    text-align: center;
+    background-color: #122741;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.links a{
+    float: center;
+    background-color: gainsboro;
+    border-radius: 5px;
+    padding: 5px;
+    color: #161616;
+    box-shadow: 10px 10px 10px #08101a98; /* define sombra  */
+    text-decoration: none; /* retira o sublinhado do hypoerlink */
+}
+
+.rodape{
+    text-align: center;
+    color: darkgrey;
+    font-size: 10px;
+}
+
+@media screen and (maxwidth: 600px){
+    .principal, .conteudo {
+        width:100%;
+        flex-direction: column;
+        padding: 0px
+    }
+}
