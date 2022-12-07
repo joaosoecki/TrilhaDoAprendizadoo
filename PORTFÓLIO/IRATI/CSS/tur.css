@@ -1,0 +1,87 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: hsl(210, 16%, 93%);
+    margin: 0;
+}
+
+.navegacao { /* altera o cxabeçalho do site */
+    background-color:  #257EAF;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 30px;
+    padding-bottom: 3px;
+    border-radius: 8px;
+    margin: 10px 10px 10px 10px;
+}
+
+table{
+    width: 100%;
+    
+}
+.b{
+    text-align: right;
+}
+
+h1{
+    text-align: center;
+}
+
+.locais{
+    width: 90%;
+    padding-bottom: 30px;
+}
+
+.PONTOS{
+    background-color: rgba(255, 255, 255, 0.884);
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+.PONTOS2{
+    background-color: rgba(255, 255, 255, 0.884);
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    width: 40%;
+}
+
+.navegacao{
+    margin-bottom: 20px;
+}
+
+.navegacao a{ /* altera os hyperlinks da classe navegação */
+    color: #ffffff;
+    text-decoration: none; /* retira o sublinhado do hypoerlink */
+}
+
+.navegacao a:hover{ /* altera a cor dos hyperlinks quando passa o mouse - não é permanente */
+    color: #d8dbdfe3;
+}
+
+#videos{
+    background-color: rgba(255, 255, 255, 0.884);
+    width: 90%;
+    padding-bottom: 40px;
+    margin-bottom: 30px;
+}
+
+#titulo{
+    text-align: center;
+}
+
+
+.rodape{
+    background-color: #257EAF;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    font-size: 13px;
+}
+
+@media screen and (maxwidth: 600px){
+    .principal, .conteudo {
+        width:100%;
+        flex-direction: column;
+        padding: 0px
+    }
+}

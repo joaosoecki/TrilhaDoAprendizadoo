@@ -1,0 +1,86 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e9ecef;
+    margin: 0;
+}
+
+.navegacao { /* altera o cxabeçalho do site */
+    background-color: #257EAF;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+table{
+    width: 100%;
+    text-align: justify;
+}
+.b{
+    text-align: center;
+}
+
+.links{
+    width: 15%;
+    padding-bottom: 20px;
+}
+
+header{
+    text-align: right;
+}
+
+.navegacao{
+    overflow: hidden;
+}
+
+.central{
+    margin-bottom: 20px;
+}
+
+
+
+.navegacao a{ /* altera os hyperlinks da classe navegação */
+    color: white;
+    text-decoration: none; /* retira o sublinhado do hypoerlink */
+}
+
+.espaco{
+    padding-left: 25px;
+}
+
+.navegacao a:hover{ /* altera a cor dos hyperlinks quando passa o mouse - não é permanente */
+    color: #d8dbdfe3
+}
+
+.principal img{ /* altera propriedades do logo tag img */
+    width: 100%; /* altera o tamanho da tag img */
+}
+
+#informacoes{
+    width: 70%;
+}
+
+
+.d{
+    width: 50%;
+    padding: 10px;
+    color: #257EAF;
+    text-align: center;
+}
+
+.rodape{
+    background-color: #257EAF;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    padding: 20px;
+}
+
+@media screen and (maxwidth: 600px){
+    .principal, .conteudo {
+        width:100%;
+        flex-direction: column;
+        padding: 0px
+    }
+}
